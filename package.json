@@ -1,0 +1,25 @@
+{
+  "name": "consumeropenmusic",
+  "version": "1.0.0",
+  "description": "consumer for openmusic app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignatiusbarry69/consumeropenmusic.git"
+  },
+  "author": "Ignatius Barry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignatiusbarry69/consumeropenmusic/issues"
+  },
+  "homepage": "https://github.com/ignatiusbarry69/consumeropenmusic#readme",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.12.0"
+  }
+}
